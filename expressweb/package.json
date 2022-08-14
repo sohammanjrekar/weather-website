@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "express": "^4.18.1",
+    "font-awesome": "^4.7.0",
+    "nodemon": "^2.0.19"
+  },
+  "name": "expressweb",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "soham",
+  "license": "ISC",
+  "description": ""
+}

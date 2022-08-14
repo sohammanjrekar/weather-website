@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Libre+Baskerville", "serif";
+}
+:root {
+  --main-bg: #1e272e;
+  --main-color: #0097e6;
+}
+html {
+  font-size: 62.5%;
+}
+.row {
+  margin: 0;
+}
+.main_menu {
+  background-color: var(--main-bg);
+}
+.navbar {
+  background-color: var(--main-bg);
+  color: #ffff;
+  padding: 2rem 0;
+}
+.navbar a {
+  font-size: 1.8rem;
+  color: #ffff;
+}
+.navbar-toggler {
+  /* background-color: #ffff; */
+  border: 1px solid #ffff;
+}
+.navbar-collapse{
+    margin-left: 50%;
+}
+.main_header .row{
+display: flex;
+flex-direction: row;
+}
+.main_header_left{
+    height: 40rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.main_header_right{
+    height: 40rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main_header_left p{
+    font-size: 2rem;
+}
+
+.main_header_left span{
+    color: var(--main-color);
+}
+.main_header_left button {
+  background-color: gainsboro;
+  border-radius: 35%;
+  border: none;
+  height:3rem;
+  width:10rem;
+  font-size: 1.5rem;
+}
+.main_header_right img {
+  height: 25rem;
+  border-radius: 50%;
+  
+}
+footer{
+    background-color: var(--main-bg);
+    color: var(--main-color);
+    padding: 1rem;
+    font-size: 2rem;
+}
+footer span{
+    color: red;
+}
